@@ -4,6 +4,6 @@ public class Messanger implements MessageSender {
 
     @Override
     public void sendMessage(String message) {
-
+        System.out.println(message);
     }
 }
